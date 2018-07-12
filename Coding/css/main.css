@@ -73,6 +73,141 @@ h1{
 .fa-angle-down{
     color: #ffffff;
     line-height: 95px;
-
+}
+#features{
+    background-color: #f1c40f;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
 }
+
+#features .container{
+    text-align: center;
+}
+h2{
+    font-size: 36px;
+    color: #ffffff;
+}
+h2::after{
+    content: " ";
+    display: block;
+    width: 200px;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 10px auto;
+
+}
+.sectionParagraph{
+    font-size: 18px;
+    font-style: italic;
+    width: 80%;
+    margin: 15px auto 60px auto;
+}
+.features-content{
+    display: inline-block;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+    padding: 0 20px;
+}
+h3{
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.col-4 p{
+    font-size: 14px;
+}
+#portfolio{
+    background-color: #95a5a6;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+#portfolio .container{
+    text-align: center;
+}
+.portfolioContent{
+    display: inline-block;
+}
+.item{
+    position: relative;
+    overflow: hidden;
+}
+.item:hover .overlay{
+    top: 0;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(231,76,60,0.8);
+    padding-top: 40px;
+    transition: top 0.4s;
+
+}
+.overlay{
+   top: 100%;
+}
+
+#portfolio .row .col-4{
+    margin-bottom: 40px;
+}
+#paraName{
+    font-family: Oswald, sans-serif;
+    font-size: 18px;
+}
+
+#team{
+    background-color: #2ecc71;
+
+}
+#team h2::after{
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 10px auto;
+
+}
+.teamContent{
+    display: inline-block;
+}
+
+#team .container{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+.teamParagraph{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.teamContent .col-4{
+    padding: 0 105px;
+}
+.fa-facebook-square{
+    color: #ffffff;
+    font-size: 28px;
+}
+.fa-twitter-square{
+    color: white;
+    font-size: 28px;
+}
+.socialIcons{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.socialIcons li{
+    display: inline;
+}
+.socialIcons li:nth-child(2){
+    margin-left: 10px;
+}
+
