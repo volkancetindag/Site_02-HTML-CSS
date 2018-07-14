@@ -211,3 +211,38 @@ h3{
     margin-left: 10px;
 }
 
+#contact{
+    background-color: #34495e;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#contact .container{
+    text-align: center;
+}
+.contactForm{
+    width: 50%;
+    margin: 0 auto;
+}
+input,textarea{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    height: 40px;
+    text-transform: uppercase;
+}
+textarea{
+    height: 160px;
+}
+input[type=submit]{
+    background-color: #e74c3c;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+
